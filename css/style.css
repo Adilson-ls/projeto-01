@@ -106,3 +106,26 @@ section.porque-nos > .center > p{
     text-align: center;
     width: 100%;
 }
+
+.diferenciais{
+    display: flex;
+    margin-top: 50px;
+}
+
+.diferenciais{
+    box-shadow: 0px 20px 40px #2426721C;
+    width: 31%;
+    margin-right: 2%;
+    padding: 10px 20px;
+}
+
+.box-diferenciais h3{
+    font-size: 28px;
+    color: black;
+    margin: 20px 0;
+}
+
+.box-diferenciais p{
+    font-size: 13px;
+    color: #7E92AC;
+}
