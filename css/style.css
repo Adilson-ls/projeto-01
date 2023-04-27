@@ -15,7 +15,7 @@
 }
 
 section.main{
-    background-image: url(images/HERO_BACKGROUND.svg);
+    background-image: url(../images/HERO_BACKGROUND.svg);
     background-position: center;
     background-size: cover;
     min-height: 700px;
@@ -81,3 +81,9 @@ section.main{
 .mockup img{
     max-width: 100%;
 }
+
+section.marcas img{
+    width: calc(100% /5);
+}
+
+section.marcas
