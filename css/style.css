@@ -201,9 +201,12 @@ footer.main{
     height: 118px;
 }
 
+footer.menu p{
+    color: white;
+}
 
 
-/* mdispositivos 768px (tablet)  */
+/* dispositivos 768px (tablet)  */
 @media screen and (max-width: 768px) {
     .diferenciais{
         
