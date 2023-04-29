@@ -90,7 +90,7 @@ section.marcas img{
 
 /* Section Por que Nós */
 section.porque-nos{
-    padding: 40px 0;
+    padding: 150px 0;
     background-color: #FBFCFE;
 }
 
@@ -176,22 +176,30 @@ section.cta > a.contact-btn{
 section.cta a.contact-btn:houver{
     border: 0;
 }
-/* section.cta > .center{
+
+/* Section Beneficios */
+section.depoimentos{
+    background: #FBFCFE;
     display: flex;
-    width: 100%;
-    
+    margin-top: 50px;
+    text-align: center;
+}
+
+section.box-depoimentos{
+    box-shadow: 0px 20px 50px #70707016;
+    width: 31%;
+    margin-right: 2%;
+    padding: 10px 50px 40px;
+    border-radius: 20px;
 }
 
 
 
-*/
 
 footer.main{
     background: #255AFF;
     height: 118px;
 }
-
-
 
 
 
@@ -221,9 +229,5 @@ footer.main{
         width: 100%;
         margin: auto;
     }
-
-   
-
-
 
 }
