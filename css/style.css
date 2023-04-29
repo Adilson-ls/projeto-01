@@ -71,7 +71,6 @@ section.main{
     color: white;
     text-align: center;
     padding-top: 100px;
-    
 }
 
 .mockup h1{
@@ -139,8 +138,64 @@ section.porque-nos > .center{
     text-align: left; 
 
 }
+/* Section Call to Action */
+section.cta{
+    background-image: url(../images/banner.svg);
+    background-position: center;
+    background-size: cover;
+    min-height: 432px;
+    padding: 20px 10px 80px 0;
+    text-align: center;
+    color: white;
+}
 
-/* media queri */
+section.cta h2,
+section.cta h4{
+    font-weight: normal;
+    margin: 20px 0 30px ;
+    padding: 24px 0;
+}
+section.cta > h2{
+    font-size: 54px;
+}
+
+section.cta h4{
+    font-size: 20px;
+}
+
+section.cta > a.contact-btn{
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 22px 45px ;
+    background:#FFDD33;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+section.cta a.contact-btn:houver{
+    border: 0;
+}
+/* section.cta > .center{
+    display: flex;
+    width: 100%;
+    
+}
+
+
+
+*/
+
+footer.main{
+    background: #255AFF;
+    height: 118px;
+}
+
+
+
+
+
+/* mdispositivos 768px (tablet)  */
 @media screen and (max-width: 768px) {
     .diferenciais{
         
