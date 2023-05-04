@@ -252,36 +252,27 @@ section.depoimentos{
     flex-wrap: wrap;
 }
 
-section.depoimentos > h1{
+section.depoimentos h1{
     text-align: center;
     font-size: 50px;
     width: 100%;
     padding: 2rem;
-    
 }
-
-section.depoimentos > .center{
-    flex-wrap: nowrap;
-    box-shadow: 0px 20px 50px #70707016;
-    border-radius: 20px;
-    /* padding: 10px 50px 40px; */
-    /* display: inline-block; */
-    /* width: 31%; */
-    /* margin-right: 2%; */
-}
-
 
 .container-slider{
-    flex-wrap: nowrap;
     overflow:hidden;
-    padding:40px 0;   
+    padding:40px 0px;
+    display: flex;
+    justify-content: center;    
 }
 
 .container-slider-single{
     float: left;
+    box-shadow: 0px 20px 50px #70707016;
     background-color:white;
     text-align: center;
-    padding:15px;
+    padding: 25px;
+    margin: 10px;
     border-radius:10px;
 }
 
@@ -340,10 +331,62 @@ li.slick-active button{
 .slick-slide:focus { outline: none; }
 
 
+/* Formulário */
+section.contato{
+    padding: 40px 0;
+    text-align: center;
+}
 
+section.contato h1{
+    text-align: center;
+    font-size: 50px; 
+    padding: 50px 0 20px;  
+}
+
+section.contato form{
+    width: 100%;
+    border: none;
+    
+}
+
+.contato input[type=text],
+.contato input[type=email],
+.contato input[type=submit]{
+    width: 65%;
+    height: 50px;
+    margin: 15px 0 ;
+    background-color: #FCFDFF ;
+    color: #7E92AC;
+    border-radius: 10px;
+    border: 1px solid #C3CCE8;
+    padding-left: 10px;
+}
+
+.contato textarea{
+    width: 65%;
+    height: 150px;
+    margin: 15px 0 ;
+    background-color: #FCFDFF ;
+    color: #7E92AC;
+    border-radius: 10px;
+    border: 1px solid #C3CCE8;
+    padding: 15px 10px  0  ;
+    resize: vertical;
+}
+
+.contato input[type=submit]{
+    background-color: #255AFF;
+    color: #FBFCFE;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    
+
+}
+
+/* Footer  */
 footer.main{
-    background: #255AFF;
-    /* height: 118px; */
+    background-color: #255AFF;
 }
 
 .text-footer p{
@@ -352,20 +395,18 @@ footer.main{
 }
 
 
+
 /* dispositivos 768px (tablet)  */
 @media screen and (max-width: 768px) {
     .diferenciais{
-        
         flex-wrap: wrap;
-        margin: 15%;
-        
+        margin: 15%; 
     }
 
     .box-diferenciais{
         box-shadow: 0px 20px 30px #2426721C;
         width: 100%;
         margin-right: 0;
-       
     }
 
     section.marcas .center{
