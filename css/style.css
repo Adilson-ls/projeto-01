@@ -388,6 +388,9 @@ section.contato form{
 footer.main{
     background-color: #255AFF;
 }
+footer.main .center{
+    padding: 15px 0 0;
+}
 
 .text-footer p{
     color: white;
